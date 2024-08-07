@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    gap: 30px;
+}
+
+main img {
+    min-width: 50%;
+    height: auto;
+}
+
+main button {
+    border: none;
+    padding: 10px;
+    background: #46A;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+main button:hover {
+    background: #429;
+    transition: background 0.5s ease;
+}
